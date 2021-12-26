@@ -1,6 +1,6 @@
 # Nginx + Apache + PHP + MySQL  
-to start application run ```docker compose up```
-http://localhost:1000/
+to start application run ```docker compose up```  
+http://localhost:1000/  
 the app uses:  
 + Docker;  
 + Nginx for static pages;  
