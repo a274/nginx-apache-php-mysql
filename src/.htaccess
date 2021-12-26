@@ -1,0 +1,2 @@
+AuthUserFile /dev/null
+php_value session.auto_start 1

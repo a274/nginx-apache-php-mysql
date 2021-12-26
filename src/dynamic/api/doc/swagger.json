@@ -1,0 +1,335 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "РСЧИР Практика №6",
+    "description": "ИКБО-03-19 Хлоповская А.В.",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:1000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Coffee"
+    },
+    {
+      "name": "Dessert"
+    }
+  ],
+  "paths": {
+    "/dynamic/api/objects/dessert.php": {
+      "get": {
+        "tags": [
+          "Dessert"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Dessert"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/objects_dessert_php_body"
+              },
+              "examples": {
+                "Пример 1": {
+                  "value": "{\n    \"name\": \"example_name\",\n    \"price\": \"80\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          },
+          "404": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "Dessert"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/objects_dessert_php_body_1"
+              },
+              "examples": {
+                "Пример 1": {
+                  "value": "{\n    \"name\": \"example_name\",\n    \"price\": \"80\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Dessert"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          },
+          "404": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:1000"
+        }
+      ]
+    },
+    "/dynamic/api/objects/coffee.php": {
+      "get": {
+        "tags": [
+          "Coffee"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Coffee"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/objects_coffee_php_body"
+              },
+              "examples": {
+                "Пример 1": {
+                  "value": "{\n    \"name\": \"example_name\",\n    \"price\": \"120\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          },
+          "404": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "Coffee"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/objects_coffee_php_body_1"
+              },
+              "examples": {
+                "Пример 1": {
+                  "value": "{\n    \"name\": \"example_name\",\n    \"price\": \"120\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "delete": {
+        "tags": [
+          "Coffee"
+        ],
+        "description": "Auto generated using Swagger Inspector",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": false,
+            "style": "form",
+            "explode": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector"
+          },
+          "404": {
+            "description": "Auto generated using Swagger Inspector"
+          }
+        },
+        "servers": [
+          {
+            "url": "http://localhost:1000"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://localhost:1000"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {
+      "objects_dessert_php_body_1": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "objects_dessert_php_body": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "objects_coffee_php_body_1": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      },
+      "objects_coffee_php_body": {
+        "type": "object",
+        "properties": {
+          "price": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "basic": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    }
+  }
+}
